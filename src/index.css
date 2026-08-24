@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+/*
+  Tema EVENTO15 — negro profundo + dorado champán.
+  Estética premium de invitación de boda.
+*/
+@theme {
+  --color-noche: #0a0908;
+  --color-carbon: #14120e;
+  --color-dorado: #c9a45c;
+  --color-dorado-claro: #e8cf9a;
+  --color-marfil: #f5efe3;
+  --color-humo: #a79e8c;
+  --color-linea: #2c2822;
+
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Jost", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-noche);
+  color: var(--color-marfil);
+  font-family: var(--font-sans);
+  font-weight: 300;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--color-dorado);
+  color: var(--color-noche);
+}
+
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: var(--color-noche); }
+::-webkit-scrollbar-thumb { background: var(--color-linea); border-radius: 5px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-dorado); }
+
+/* Título de sección con letras espaciadas, estilo invitación */
+.titulo-espaciado {
+  font-family: var(--font-sans);
+  letter-spacing: 0.45em;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+/* Línea decorativa dorada bajo los títulos */
+.linea-dorada {
+  width: 64px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-dorado), transparent);
+  margin: 1.25rem auto;
+}
+
+/* Marco fino dorado alrededor de las fotos circulares */
+.aro-dorado {
+  border: 1px solid color-mix(in srgb, var(--color-dorado) 55%, transparent);
+  padding: 8px;
+  border-radius: 9999px;
+}
