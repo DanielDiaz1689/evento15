@@ -7,9 +7,9 @@
 
 export const negocio = {
   nombre: 'EVENTO15',
-  // ⚠️ REEMPLAZA con el WhatsApp del dueño de EVENTO15:
-  // 57 + celular, SIN "+", SIN espacios. Ej: '573001112233'
-  whatsapp: '573000000000',
+  // ⚠️ Número de Daniel MIENTRAS el cliente confirma el suyo.
+  // Cuando lo dé: 57 + celular, SIN "+", SIN espacios.
+  whatsapp: '573136676011',
   mensajeInicial:
     'Hola, vi la página de EVENTO15 y quiero información para organizar mi evento. 💍',
   // ⚠️ Correo que RECIBE las solicitudes de cita (cámbialo por el del dueño).

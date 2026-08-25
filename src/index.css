@@ -1,17 +1,18 @@
 @import "tailwindcss";
 
 /*
-  Tema EVENTO15 — negro profundo + dorado champán.
-  Estética premium de invitación de boda.
+  Tema EVENTO15 v2 — verde esmeralda profundo + dorado champán.
+  Paleta "lujo clásico": el dorado brilla mucho más sobre esmeralda
+  que sobre negro, y el fondo deja de sentirse plano.
 */
 @theme {
-  --color-noche: #0a0908;
-  --color-carbon: #14120e;
+  --color-noche: #0a1f19;
+  --color-carbon: #10281f;
   --color-dorado: #c9a45c;
   --color-dorado-claro: #e8cf9a;
-  --color-marfil: #f5efe3;
-  --color-humo: #a79e8c;
-  --color-linea: #2c2822;
+  --color-marfil: #f6f1e4;
+  --color-humo: #a3b5a6;
+  --color-linea: #23453a;
 
   --font-serif: "Cormorant Garamond", Georgia, serif;
   --font-sans: "Jost", system-ui, sans-serif;
@@ -21,12 +22,32 @@ html {
   scroll-behavior: smooth;
 }
 
+/*
+  Fondo con profundidad: dos brillos radiales (dorado arriba,
+  verde al centro) + un degradado vertical. Nada de color plano.
+*/
 body {
-  background: var(--color-noche);
+  background-color: var(--color-noche);
+  background-image:
+    radial-gradient(1100px 500px at 85% -5%, rgba(201, 164, 92, 0.10), transparent 60%),
+    radial-gradient(900px 600px at 0% 40%, rgba(38, 84, 65, 0.35), transparent 65%),
+    linear-gradient(180deg, #0c241c 0%, var(--color-noche) 55%, #071710 100%);
+  background-attachment: fixed;
   color: var(--color-marfil);
   font-family: var(--font-sans);
   font-weight: 300;
   overflow-x: hidden;
+}
+
+/* Grano sutil encima de todo: textura de papel fotográfico */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23g)'/%3E%3C/svg%3E");
 }
 
 ::selection {
@@ -55,7 +76,7 @@ body {
   margin: 1.25rem auto;
 }
 
-/* Marco fino dorado alrededor de las fotos circulares */
+/* Marco fino dorado (se usa en la foto de Nosotros) */
 .aro-dorado {
   border: 1px solid color-mix(in srgb, var(--color-dorado) 55%, transparent);
   padding: 8px;
