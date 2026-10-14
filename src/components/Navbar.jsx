@@ -22,8 +22,9 @@ export default function Navbar() {
       }`}
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <a href="#inicio" className="font-serif text-2xl tracking-[0.25em] text-dorado">
-          {negocio.nombre}
+        <a href="#inicio" className="flex items-center gap-3">
+          <span className="font-serif text-4xl italic text-dorado leading-none">CP</span>
+          <span className="font-serif text-sm tracking-[0.25em] text-dorado uppercase hidden sm:inline">{negocio.nombre}</span>
         </a>
 
         <ul className="hidden items-center gap-9 lg:flex">

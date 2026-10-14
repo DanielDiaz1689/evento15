@@ -63,7 +63,7 @@ export default function GaleriaScroll() {
           {/* Título de la foto + contador */}
           <div className="absolute bottom-10 left-0 right-0 px-8 text-center">
             <p className="titulo-espaciado mb-2 text-[11px] text-dorado-claro">
-              Galería EVENTO15
+              Galería Carlos y Paola
             </p>
             <h3 className="font-serif text-3xl italic text-marfil md:text-5xl">
               {galeria[indice].titulo}

@@ -4,7 +4,8 @@ export default function Footer() {
   return (
     <footer id="contacto" className="border-t border-linea bg-carbon/70 py-16">
       <div className="mx-auto max-w-7xl px-6 text-center">
-        <p className="font-serif text-3xl tracking-[0.3em] text-dorado">{negocio.nombre}</p>
+        <p className="font-serif text-5xl italic text-dorado mb-1">CP</p>
+        <p className="font-serif text-xl tracking-[0.3em] text-dorado">{negocio.nombre}</p>
         <div className="linea-dorada" />
         <p className="mx-auto mb-8 max-w-md text-sm text-humo">
           Bodas, 15 años y eventos corporativos. Hagamos de tu celebración un

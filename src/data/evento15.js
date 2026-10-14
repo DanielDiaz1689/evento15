@@ -6,12 +6,12 @@
 */
 
 export const negocio = {
-  nombre: 'EVENTO15',
+  nombre: 'CARLOS Y PAOLA',
   // ⚠️ Número de Daniel MIENTRAS el cliente confirma el suyo.
   // Cuando lo dé: 57 + celular, SIN "+", SIN espacios.
   whatsapp: '573136676011',
   mensajeInicial:
-    'Hola, vi la página de EVENTO15 y quiero información para organizar mi evento. 💍',
+    'Hola, vi la página de Carlos y Paola y quiero información para organizar mi evento. 💍',
   // ⚠️ Correo que RECIBE las solicitudes de cita (cámbialo por el del dueño).
   // La primera vez que alguien envíe el formulario, FormSubmit mandará un
   // correo de activación a esta dirección: hay que abrirlo y confirmar.
@@ -111,7 +111,7 @@ export const videos = [
 ]
 
 export const nosotros = {
-  titulo: 'Somos EVENTO15',
+  titulo: 'Somos Carlos y Paola',
   parrafos: [
     'Un equipo con más de 10 años de experiencia en la planificación y organización de bodas y eventos. Nuestro enfoque es personalizar cada celebración, cuidando cada detalle para que vivas tu día especial sin preocupaciones.',
     'Creemos que cada evento cuenta una historia. La nuestra es hacer que la tuya sea inolvidable.',

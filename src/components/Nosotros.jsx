@@ -10,7 +10,7 @@ export default function Nosotros() {
             <div className="aro-dorado w-fit" style={{ borderRadius: '2px', padding: '10px' }}>
               <img
                 src={nosotros.imagen}
-                alt="Equipo EVENTO15"
+                alt="Equipo Carlos y Paola"
                 loading="lazy"
                 className="max-h-[460px] w-full object-cover"
               />

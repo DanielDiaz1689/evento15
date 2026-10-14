@@ -46,7 +46,7 @@ export default function Citas() {
           Mensaje: datos.mensaje,
           _subject: `💍 Nueva solicitud de cita — ${datos.nombre} (${datos.tipo})`,
           _template: 'table',
-          _autoresponse: `Hola ${datos.nombre}, ¡gracias por contactar a EVENTO15! Recibimos tu solicitud de cita para tu evento (${datos.tipo}). Muy pronto nos comunicaremos contigo para confirmar el día y la hora de la reunión con nuestros wedding planners. — Equipo EVENTO15`,
+          _autoresponse: `Hola ${datos.nombre}, ¡gracias por contactar a Carlos y Paola! Recibimos tu solicitud de cita para tu evento (${datos.tipo}). Muy pronto nos comunicaremos contigo para confirmar el día y la hora de la reunión con nuestros wedding planners. — Carlos y Paola`,
           _captcha: 'false',
         }),
       })
