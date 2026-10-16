@@ -15,7 +15,7 @@ export const negocio = {
   email: 'comercial@carlosypaola.com',
   direccion: 'Calle 235 # 80-03, Arboledas de Guaymaral, Bogotá',
   instagram: 'https://www.instagram.com/carlosypaolawedding.planner/',
-  facebook: 'https://www.facebook.com/CarlosPaolaEvento15',
+  facebook: 'https://www.facebook.com/CarlosPaolaweddingplanner',
 }
 
 export function enlaceWhatsApp(mensaje = negocio.mensajeInicial) {

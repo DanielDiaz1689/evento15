@@ -7,6 +7,7 @@ import Nosotros from './components/Nosotros'
 import Citas from './components/Citas'
 import Footer from './components/Footer'
 import BotonWhatsApp from './components/BotonWhatsApp'
+import CursorSparkle from './components/CursorSparkle'
 import { servicios, eventosPrivados, eventosEmpresa } from './data/evento15'
 
 /* Página completa de EVENTO15: una sola vista, scroll continuo */
@@ -26,6 +27,7 @@ export default function App() {
       </main>
       <Footer />
       <BotonWhatsApp />
+      <CursorSparkle />
     </>
   )
 }
