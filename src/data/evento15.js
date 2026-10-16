@@ -1,21 +1,21 @@
 /*
   ══════════════════════════════════════════════════
-  CONTENIDO DE EVENTO15 — edita este archivo.
+  CONTENIDO DE CARLOS Y PAOLA — edita este archivo.
   Textos, fotos, videos y datos de contacto en un solo lugar.
   ══════════════════════════════════════════════════
 */
 
 export const negocio = {
   nombre: 'CARLOS Y PAOLA',
-  // ⚠️ Número de Daniel MIENTRAS el cliente confirma el suyo.
-  // Cuando lo dé: 57 + celular, SIN "+", SIN espacios.
-  whatsapp: '573136676011',
+  whatsapp: '573208078528',
   mensajeInicial:
     'Hola, vi la página de Carlos y Paola y quiero información para organizar mi evento. 💍',
-  // ⚠️ Correo que RECIBE las solicitudes de cita (cámbialo por el del dueño).
-  // La primera vez que alguien envíe el formulario, FormSubmit mandará un
-  // correo de activación a esta dirección: hay que abrirlo y confirmar.
-  correoCitas: 'daniel2001barragan@gmail.com',
+  correoCitas: 'comercial@carlosypaola.com',
+  telefono2: '+57 320 469 79 05',
+  email: 'comercial@carlosypaola.com',
+  direccion: 'Calle 235 # 80-03, Arboledas de Guaymaral, Bogotá',
+  instagram: 'https://www.instagram.com/carlosypaolawedding.planner/',
+  facebook: 'https://www.facebook.com/CarlosPaolaEvento15',
 }
 
 export function enlaceWhatsApp(mensaje = negocio.mensajeInicial) {
@@ -24,52 +24,53 @@ export function enlaceWhatsApp(mensaje = negocio.mensajeInicial) {
 
 export const hero = {
   etiqueta: 'Wedding & Event Planners',
-  titulo: 'El día más importante de tu vida,',
-  tituloCursiva: 'planeado a la perfección',
+  titulo: 'Hacemos Bodas',
+  tituloCursiva: 'con Amor',
   descripcion:
-    'Diseñamos y coordinamos tu boda de principio a fin, para que tú solo te ocupes de vivirla. Cada detalle cuenta tu historia.',
-  imagen: '/galeria/hero.jpg',
+    'Somos Carlos y Paola, una pareja con más de 10 años de experiencia en la planificación y organización de bodas. Personalizamos cada evento para que vivas tu día especial sin preocupaciones.',
+  imagen: '/galeria/cp-hero.jpg',
+  video: '/videos/cp-hero-video.mp4',
 }
 
 export const servicios = [
   {
-    imagen: '/galeria/ramo-novia.jpg',
+    imagen: '/galeria/cp-planificacion.jpg',
     titulo: 'Planificación integral',
     descripcion:
-      'Nos encargamos de todo: concepto, proveedores, presupuesto y cronograma. Tú vives tu día especial sin preocupaciones, nosotros cuidamos cada detalle.',
+      'Somos Carlos y Paola, una pareja con más de 10 años de experiencia en la planificación y organización de bodas. Nuestro enfoque es personalizar cada evento, cuidando cada detalle para que vivas tu día especial sin preocupaciones.',
   },
   {
-    imagen: '/galeria/mesa-gala.jpg',
+    imagen: '/galeria/cp-coordinacion.jpg',
     titulo: 'Coordinación de evento',
     descripcion:
-      '¿Ya tienes claro lo que quieres? Nos aseguramos de que todo salga según lo planeado, desde la llegada de los invitados hasta el último brindis.',
+      'Si ya tienes claro lo que quieres pero necesitas ayuda con la coordinación, ¡estamos aquí para ayudarte! Nos aseguramos de que todo salga según lo planeado, desde la llegada de los invitados hasta el último brindis.',
   },
   {
-    imagen: '/galeria/anillos-manos.jpg',
+    imagen: '/galeria/cp-asesoramiento.jpg',
     titulo: 'Asesoramiento personalizado',
     descripcion:
-      'Te acompañamos en cada decisión con nuestra experiencia: vestidos, locaciones, decoración y protocolo, para que elijas con total confianza.',
+      'Con nuestra amplia experiencia, te brindamos asesoramiento personalizado para que cada decisión que tomes esté respaldada por nuestro conocimiento y expertise.',
   },
 ]
 
 export const eventosPrivados = [
   {
-    imagen: '/galeria/boda-beso.jpg',
+    imagen: '/galeria/cp-bodas.jpg',
     titulo: 'Bodas',
     descripcion:
-      'Cada boda es única: un reflejo de la personalidad y el amor de cada pareja. Creamos momentos inolvidables y llenamos de magia ese día tan especial.',
+      'En Carlos y Paola Wedding Planners creemos que cada boda es única, un reflejo de la personalidad y el amor de cada pareja. Con años de experiencia en la organización de eventos, nos apasiona crear momentos inolvidables y llenar de magia ese día tan especial.',
   },
   {
-    imagen: '/galeria/quince.jpg',
+    imagen: '/galeria/cp-quince.jpg',
     titulo: '15 años',
     descripcion:
-      'Una fiesta que refleja los sueños y el estilo de quien celebra este gran paso. Clásica, moderna o temática: creamos recuerdos para toda la vida.',
+      'Cada fiesta de 15 años que organizamos es única, reflejando los sueños, personalidad y estilo de la joven que celebra este gran paso en su vida. Ya sea un evento clásico, moderno o temático, nuestro compromiso es crear recuerdos inolvidables para todos los asistentes.',
   },
   {
-    imagen: '/galeria/catering.jpg',
+    imagen: '/galeria/cp-catering.jpg',
     titulo: 'Catering y experiencias gastronómicas',
     descripcion:
-      'Menús que se ajustan a tus invitados y crean momentos gastronómicos memorables. Porque la comida también es parte de la experiencia.',
+      'Proveemos opciones de catering que se ajusten a las necesidades de tus asistentes, creando momentos gastronómicos que complementen la experiencia del evento. Porque la comida también forma parte de la experiencia.',
   },
 ]
 
@@ -78,45 +79,45 @@ export const eventosEmpresa = [
     imagen: '/galeria/conferencia.jpg',
     titulo: 'Conferencias',
     descripcion:
-      'Planificación completa: objetivos, ponentes, agenda y logística. Eventos relevantes e innovadores que cumplen las expectativas de todos los asistentes.',
+      'Nos encargamos de la planificación completa, desde la definición de los objetivos del evento hasta la selección de los ponentes y el diseño de la agenda. Te ayudamos a crear un evento que sea relevante, innovador y que cumpla con las expectativas de todos los asistentes.',
   },
   {
     imagen: '/galeria/carpa-noche.jpg',
     titulo: 'Fiestas de empresa',
     descripcion:
-      'Temáticas de cuento, vintage, hollywoodense o de tu personaje favorito: lo hacemos realidad, desde las invitaciones hasta el último detalle decorativo.',
+      'Si deseas una fiesta con un tema especial, como una fiesta de cuento de hadas, vintage, hollywoodense o temática de algún personaje, ¡lo podemos hacer realidad! Nos encargamos de todos los detalles, desde las invitaciones hasta el último accesorio decorativo.',
   },
   {
-    imagen: '/galeria/fiesta-luces.jpg',
+    imagen: '/galeria/cp-produccion.jpg',
     titulo: 'Producción audiovisual',
     descripcion:
-      'Sonido, pantallas, proyecciones y grabación profesional para que tu evento tenga el respaldo tecnológico de una experiencia impecable.',
+      'Nos aseguramos de que el evento tenga el apoyo tecnológico necesario para una experiencia fluida: equipos de sonido, pantallas, proyecciones, grabaciones y más.',
   },
 ]
 
-/* Galería del efecto scroll: las imágenes se amplían a pantalla completa */
+/* Galería del efecto scroll: imágenes reales de Carlos y Paola */
 export const galeria = [
-  { src: '/galeria/boda-beso.jpg', titulo: 'El sí de sus vidas' },
-  { src: '/galeria/hero.jpg', titulo: 'Atardeceres dorados' },
-  { src: '/galeria/mesa-gala.jpg', titulo: 'Cada mesa, una obra' },
-  { src: '/galeria/carpa-noche.jpg', titulo: 'Noches que brillan' },
-  { src: '/galeria/fiesta-luces.jpg', titulo: 'La celebración' },
+  { src: '/galeria/cp-gal-01.jpg', titulo: 'Momentos únicos' },
+  { src: '/galeria/cp-gal-02.jpg', titulo: 'Detalles con amor' },
+  { src: '/galeria/cp-gal-03.jpg', titulo: 'El gran día' },
+  { src: '/galeria/cp-gal-04.jpg', titulo: 'Celebraciones mágicas' },
+  { src: '/galeria/cp-gal-05.jpg', titulo: 'Elegancia y estilo' },
+  { src: '/galeria/cp-gal-06.jpg', titulo: 'Recuerdos eternos' },
+  { src: '/galeria/cp-gal-07.jpg', titulo: 'Amor en cada detalle' },
+  { src: '/galeria/cp-gal-08.jpg', titulo: 'Tu historia, nuestra pasión' },
 ]
 
 export const videos = [
-  { src: '/videos/boda-40601.mp4', titulo: 'Momentos reales' },
-  { src: '/videos/boda-5218.mp4', titulo: 'El gran día' },
-  { src: '/videos/boda-5224.mp4', titulo: 'Detalles con alma' },
-  { src: '/videos/boda-40627.mp4', titulo: 'Celebrar el amor' },
+  { src: '/videos/cp-hero-video.mp4', titulo: 'Hacemos Bodas con Amor' },
 ]
 
 export const nosotros = {
   titulo: 'Somos Carlos y Paola',
   parrafos: [
-    'Un equipo con más de 10 años de experiencia en la planificación y organización de bodas y eventos. Nuestro enfoque es personalizar cada celebración, cuidando cada detalle para que vivas tu día especial sin preocupaciones.',
-    'Creemos que cada evento cuenta una historia. La nuestra es hacer que la tuya sea inolvidable.',
+    'Una pareja con más de 10 años de experiencia en la planificación y organización de bodas. Nuestro enfoque es personalizar cada evento, cuidando cada detalle para que vivas tu día especial sin preocupaciones.',
+    'Una Boda se vive 3 veces: Al planearla, Al celebrarla, Y al recordarla. Desde el primer momento en que comienzas a planear tu boda, hasta el último recuerdo que guardas de ese día tan significativo, estamos aquí para acompañarte en cada paso del camino.',
   ],
-  imagen: '/galeria/recepcion.jpg',
+  imagen: '/galeria/cp-nosotros.jpg',
   estadisticas: [
     { numero: '+150', etiqueta: 'Eventos realizados' },
     { numero: '10', etiqueta: 'Años de experiencia' },
@@ -127,21 +128,33 @@ export const nosotros = {
 export const testimonios = [
   {
     texto:
-      'Nos entregamos por completo a su equipo y fue la mejor decisión. Vivimos nuestra boda como invitados: sin estrés y llenos de magia.',
-    autor: 'Laura & Andrés',
-    evento: 'Boda · Pereira',
+      'Un equipo comprometido que supo captar nuestras ideas y plasmarlas en cada momento de nuestra boda.',
+    autor: 'Carmela & Martín',
+    evento: 'Boda · Bogotá',
   },
   {
     texto:
-      'Los 15 de mi hija fueron exactamente como los soñó. Cada detalle, cada sorpresa, todo impecable de principio a fin.',
-    autor: 'Claudia M.',
-    evento: 'Quinceañero · Armenia',
+      'Profesionalismo y dedicación en cada detalle, lograron que nuestro día fuese mágico e inolvidable.',
+    autor: 'María & Tomás',
+    evento: 'Boda · Bogotá',
   },
   {
     texto:
-      'Organizaron nuestra conferencia anual para 300 personas y todo fluyó perfecto. Profesionalismo de principio a fin.',
-    autor: 'Grupo Andino',
-    evento: 'Evento corporativo · Manizales',
+      'Gracias por hacer de nuestro día algo único, su pasión por lo que hacen se refleja en cada detalle.',
+    autor: 'Natalia & José',
+    evento: 'Boda · Bogotá',
+  },
+  {
+    texto:
+      'Su asesoría nos brindó confianza y tranquilidad, superaron nuestras expectativas.',
+    autor: 'Carmela & María',
+    evento: 'Boda · Bogotá',
+  },
+  {
+    texto:
+      'Profesionales con un toque personal que convirtieron nuestro sueño en una realidad maravillosa.',
+    autor: 'Ximena & Simón',
+    evento: 'Boda · Bogotá',
   },
 ]
 
@@ -158,6 +171,5 @@ export const secciones = [
   { id: 'servicios', nombre: 'Servicios' },
   { id: 'nosotros', nombre: 'Nosotros' },
   { id: 'galeria', nombre: 'Galería' },
-  { id: 'citas', nombre: 'Agenda tu cita' },
-  { id: 'contacto', nombre: 'Contacto' },
+  { id: 'citas', nombre: 'Contacto' },
 ]
