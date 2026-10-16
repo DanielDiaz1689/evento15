@@ -52,7 +52,7 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 0.6, scale: 1 }}
           transition={{ duration: 1, delay: 0.4 }}
-          className="mx-auto my-6 h-24 w-auto md:h-32"
+          className="mx-auto my-6 h-32 w-auto md:h-44"
         />
 
         <motion.div

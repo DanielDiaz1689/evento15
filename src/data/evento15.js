@@ -119,7 +119,7 @@ export const nosotros = {
   ],
   imagen: '/galeria/cp-nosotros.jpg',
   estadisticas: [
-    { numero: '+150', etiqueta: 'Eventos realizados' },
+    { numero: '+350', etiqueta: 'Eventos realizados' },
     { numero: '10', etiqueta: 'Años de experiencia' },
     { numero: '100%', etiqueta: 'Parejas felices' },
   ],
